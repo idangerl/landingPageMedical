@@ -1,3 +1,11 @@
+import image1 from "../assets/consulta.jpg";
+import image2 from "../assets/radiofrecuencia.jpg";
+import image3 from "../assets/endoscopia-nasal.jpeg";
+import image4 from "../assets/tabique.jpg";
+import image5 from "../assets/endoscopia.jpg";
+import image6 from "../assets/pediatrica.jpg";
+
+
 function Services() {
   return (
     <section id="services" className="py-10">
@@ -12,32 +20,32 @@ function Services() {
             Servicios del Otorrinolaringólogo en Monterrey
           </h2>
           <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20 w-full">
-            <li className="border p-4 text-center bg-[url('consulta.jpg')] bg-cover bg-center h-64 rounded-xl transform hover:scale-105 cursor-pointer">
+            <li className="border p-4 text-center bg-cover bg-center h-64 rounded-xl transform hover:scale-105 cursor-pointer" style={{ backgroundImage: `url(${image1})` }}>
               <div className="inline px-3 text-gray-700 text-2xl bg-white bg-opacity-50 backdrop-filter backdrop-blur">
                 Consulta
               </div>
             </li>
-            <li className="border p-4 text-center bg-[url('radiofrecuencia.jpg')] bg-cover bg-center h-64 rounded-xl transform hover:scale-105 cursor-pointer">
+            <li className="border p-4 text-center bg-cover bg-center h-64 rounded-xl transform hover:scale-105 cursor-pointer" style={{ backgroundImage: `url(${image2})` }}>
               <div className="inline px-3 text-gray-700 text-2xl bg-white bg-opacity-50 backdrop-filter backdrop-blur">
                 Radiofrecuencia de Cornetes
               </div>
             </li>
-            <li className="border p-4 text-center bg-[url('endoscopia.jpg')] bg-cover bg-center h-64 rounded-xl transform hover:scale-105 cursor-pointer">
+            <li className="border p-4 text-center bg-cover bg-center h-64 rounded-xl transform hover:scale-105 cursor-pointer" style={{ backgroundImage: `url(${image3})` }}>
               <div className="inline px-3 text-gray-700 text-2xl bg-white bg-opacity-50 backdrop-filter backdrop-blur">
                 Cirugía endoscópica para sinusitis
               </div>
             </li>
-            <li className="border p-4 text-center bg-[url('tabique.jpg')] bg-cover bg-center h-64 rounded-xl transform hover:scale-105 cursor-pointer">
+            <li className="border p-4 text-center bg-cover bg-center h-64 rounded-xl transform hover:scale-105 cursor-pointer" style={{ backgroundImage: `url(${image4})` }}>
               <div className="inline px-3 text-gray-700 text-2xl bg-white bg-opacity-50 backdrop-filter backdrop-blur">
                 Cirugía de Tabique nasal
               </div>
             </li>
-            <li className="border p-4 text-center bg-[url('endoscopia-nasal.jpeg')] bg-cover bg-center h-64 rounded-xl transform hover:scale-105 cursor-pointer">
+            <li className="border p-4 text-center bg-cover bg-center h-64 rounded-xl transform hover:scale-105 cursor-pointer" style={{ backgroundImage: `url(${image5})` }}>
               <div className="inline px-3 text-gray-700 text-2xl bg-white bg-opacity-50 backdrop-filter backdrop-blur">
                 Endoscopia Nasal
               </div>
             </li>
-            <li className="border p-4 text-center bg-[url('pediatrica.jpg')] bg-cover bg-center h-64 rounded-xl transform hover:scale-105 cursor-pointer">
+            <li className="border p-4 text-center bg-cover bg-center h-64 rounded-xl transform hover:scale-105 cursor-pointer" style={{ backgroundImage: `url(${image6})` }}>
               <div className="inline px-3 text-gray-700 text-2xl bg-white bg-opacity-50 backdrop-filter backdrop-blur">
                 Otorrinolaringología Pediátrica
               </div>

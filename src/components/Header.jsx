@@ -1,8 +1,10 @@
+import logo from '../assets/logo.png'
+
 function Header() {
   return (
     <header className="bg-sky-400">
       <div className="px-10 py-4 flex justify-between items-center">
-        <img src="logo.png" alt="logo" className="h-24" />
+        <img src={logo} alt="logo" className="h-24" />
         <ul className="flex">
           <li className="ml-10 font-semibold text-lg hover:underline">
             <a href="#hero">Inicio</a>

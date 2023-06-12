@@ -1,6 +1,11 @@
+import Otorrinolaringologo from "../assets/otorrinolaringologo.jpg";
+
 function Hero() {
   return (
-    <section className="bg-cover bg-center bg-[url('otorrinolaringologo.jpg')] h-[47rem] flex items-center mt-5 mb-10">
+    <section
+      className="bg-cover bg-center h-[47rem] flex items-center mt-5 mb-10"
+      style={{ backgroundImage: `url(${Otorrinolaringologo})` }}
+    >
       <div className="w-1/4 m-24 p-10 rounded-2xl bg-white bg-opacity-50 backdrop-filter backdrop-blur font-normal">
         <p className="leading-10 text-lg">
           El <span className="font-bold">Dr. Jorge Treviño Garza</span> es un{" "}
